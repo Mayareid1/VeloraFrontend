@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import bgImage from "../assets/home sec1.webp";
 import cardImg from "../assets/home sec2.webp";
 import cardImg2 from "../assets/card.webp";
-import { Link } from "react-router-dom";
-
-
 import {
   FaHeart,
   FaUserMd,
@@ -16,7 +13,6 @@ import {
   FaUser,
 } from "react-icons/fa";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -112,14 +108,13 @@ const HeroSection = () => {
                 </p>
 
                 <div className="d-flex flex-wrap gap-2 gap-md-3 mb-4">
-                <Link
-                  to="/quiz"
-                   className="btn btn-primary px-3 px-md-4 py-2 py-md-3 rounded-pill shadow-sm fs-6"
-                >
- Start Your Consultation
-  <FaArrowRight className="ms-2" />
-</Link>
-
+                  <a
+                    href="#treatment"
+                    className="btn btn-primary px-3 px-md-4 py-2 py-md-3 rounded-pill shadow-sm fs-6"
+                  >
+                    Start Your Consultation
+                    <FaArrowRight className="ms-2" />
+                  </a>
 
                   <a
                     href="#learn-more"

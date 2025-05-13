@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const FAQ = () => {

@@ -4,7 +4,6 @@ import { FaUser, FaComment } from "react-icons/fa";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contacts = () => {
