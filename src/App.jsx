@@ -14,6 +14,7 @@ import Register from "./pages/Register.jsx";
 import PrivateRoute from "./routes/PrivateRoutes";
 import Unauthorized from "./pages/Unauthorized";
 import { ToastContainer } from "react-toastify";
+import AdminDashboard from "./pages/admin/Dashboard.jsx";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/unauthorized" element={<Unauthorized />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/whyvelora" element={<WhyVelora />} />
         <Route path="/products/:id" element={<ProductDetails />} />{" "}
